@@ -40,6 +40,7 @@ public class CheckoutBasketCommandHandler
 
         await publishEndpoint.Publish(eventMessage, cancellationToken);
 
+        // TODO: Dual-write problem can be solved with Saga pattern/UoW
         await repository.DeleteBasket(command.BasketCheckoutDto.UserName, cancellationToken);
 
         return new CheckoutBasketResult(true);
