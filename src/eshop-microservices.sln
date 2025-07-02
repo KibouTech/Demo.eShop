@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B5BFF034-CA54-427C-B7CE-9C0BB65C5A0D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{5C4D4D4E-3B6C-4B12-BC95-AF41C8FF3EEC}"
+	ProjectSection(SolutionItems) = preProject
+		Services\Catalog\README\README.md = Services\Catalog\README\README.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{B39E950B-EDA6-4D94-85F5-93ED1FD03CF1}"
 EndProject
@@ -16,14 +19,23 @@ EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6DCBEC70-4866-4297-9AD0-73928CCFA987}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{A067C785-233F-4139-8B82-A8989520FBEB}"
+	ProjectSection(SolutionItems) = preProject
+		Services\Basket\README\README.md = Services\Basket\README\README.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{439ADDA5-EA6B-4B30-BD7B-3E2000D33CE5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{9E43C442-4F0A-4987-B13F-0E58666308F4}"
+	ProjectSection(SolutionItems) = preProject
+		Services\Discount\README\README.md = Services\Discount\README\README.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{916232B8-7FEB-4FC1-81EC-27C6F8469A57}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{9A5AEA6B-C7C2-4409-AA46-8E6E5C7F98CE}"
+	ProjectSection(SolutionItems) = preProject
+		Services\Ordering\README\README.md = Services\Ordering\README\README.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.API", "Services\Ordering\Ordering.API\Ordering.API.csproj", "{02F1AB84-9D7A-489C-A8AA-E3E5C3E7595D}"
 EndProject
