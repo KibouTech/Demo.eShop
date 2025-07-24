@@ -132,7 +132,7 @@ The following are the endpoints of each microservice and their dependent service
 | Catalog DB (Postgres) | http://localhost:5432                                                 |                                                         |
 | Basket                | http://localhost:6001 <br/>https://localhost:6061                     | http://basket.api:8080 <br/>https://basket.api:8081     |
 | Basket DB (Postgres)  | http://localhost:5433                                                 |                                                         |
-| Discount              | grpc://localhost:6062                                                 | grpc://discount.api:8081                                |
+| Discount              | grpc://localhost:6002 <br/>grpc://localhost:6062                      | grpc://discount.api:8081                                |
 | Ordering              | http://localhost:6003 <br/>https://localhost:6063                     | http://ordering.api:8080 <br/>https://ordering.api:8081 |
 | Order DB (MSSQL)      | http://localhost:1433                                                 |                                                         |
 | Yarp Reverse Proxy    | http://localhost:6004 <br/>https://localhost:6064                     |                                                         |
